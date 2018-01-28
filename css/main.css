@@ -1,0 +1,197 @@
+* {
+    /*border: 1px solid blue !important;*/
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*FRAMEWORK*/
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*OTHER*/
+
+.header {
+  margin-bottom: 0px;
+  color: white;
+  font-size: 12px;
+}
+
+.header img {
+  height: 100px;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.header h1 {
+  font-family: 'Norican', cursive;
+  font-size: 40px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.mainheader {
+  margin-bottom: 5px;
+}
+
+.subheader {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.orange {
+  background-color: #FF521E;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bodyfont {
+  font-family: 'Roboto', sans-serif;
+}
+
+.body {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #545454;
+}
+
+#homeheader {
+  font-size: 22px;
+}
+
+.bigp {
+  max-height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bigp .read-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0; padding: 30px 0;
+
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, #A0A0A0);
+}
+
+.source {
+  color: #A0A0A0;
+  font-size: 12px;
+}
+
+.source a:link {
+  color: #A0A0A0;
+  text-decoration: none;
+}
+
+.source a:visited {
+  font-size: 12px;
+  color: #A0A0A0;
+  text-decoration: none;
+}
+
+.source a:hover {
+  font-size: 12px;
+  color: #545454;
+  text-decoration: underline;
+}
+
+.links a:link {
+  color: #545454;
+  text-decoration: underline;
+}
+
+.links a:visited {
+  color: #545454;
+  text-decoration: underline;
+}
+
+.links a:hover {
+  color: #A0A0A0;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 450px;
+}
